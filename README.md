@@ -1,3 +1,4 @@
+```
 ##EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
 Name:KARANKUMAR K
@@ -136,3 +137,4 @@ The chatbot learns from customer interactions and improves performance through m
 RESULT
 
 Thus, the experiment was successfully executed using four different prompting techniques. Their responses were compared and analyzed, demonstrating that Chain-of-Thought Prompting provided the most detailed and structured explanation for the selected scenario.
+```
