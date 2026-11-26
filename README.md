@@ -1,53 +1,143 @@
+EXP 5: COMPARATIVE ANALYSIS OF DIFFERENT TYPES OF PROMPTING PATTERNS AND EXPLAIN WITH VARIOUS TEST SCENARIOS
 
+Name: KARANKUMAR K
+Reg No: 212225040171
 
-# EXP 5: Comparing Prompting Techniques Through Engineering Problem-Solving Scenarios
+Aim
 
-# Aim:To compare different prompting techniques and evaluate their effectiveness in solving real-world engineering problems by using a problem selected from a student's 3rd-year or final-year project work. 
+To test and compare how different pattern models respond to various prompts (broad or unstructured) versus basic prompts (clearer and more refined) across multiple scenarios. Analyze the quality, accuracy, and depth of the generated responses.
 
-### AI Tools Required: 
+Explanation
+Define the Two Prompt Types
 
-# EXPERIMENT OVERVIEW
+Write a basic prompt: Clear, detailed, and structured prompts that give specific instructions or context to guide the model. Based on that pattern type, refine the prompt and submit it to the AI tool. Get the output and write the report.
 
-In this experiment, each student/team selects a genuine problem from their ongoing or completed 3rd-year or final-year engineering project.
-The same engineering problem is given to an AI system using different prompting techniques. Students then compare the responses based on relevance, accuracy, completeness, clarity, feasibility and usefulness.
-The purpose is not simply to obtain an AI-generated answer. Students must analyse how changing the prompting technique changes the quality of the solution.
+Prepare Multiple Test Scenarios
 
-EXPERIMENT PROCEDURE
-Step 1 – Select the Engineering Problem
-Choose one genuine problem from the student's 3rd-year or final-year project.
-Step 2 – Write the Base Prompt
-Write a simple prompt describing the engineering problem without using advanced prompting techniques.
-Step 3 – Apply Different Prompting Techniques
-Rewrite the same problem using at least four different prompting techniques.
-For example:
-Technique 1 – Straightforward Prompt
-Suggest a method to detect crop diseases using computer vision.structure.
-Run Experiments with ChatGPT:
-Input the naïve prompt for each scenario and record the generated response.
-Then input the corresponding basic prompt and capture that response.
-Repeat this process for all selected scenarios to gather a full set of results.
-Evaluate Responses : 
-	Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on Quality,Accuracy and Depth. Also analyse does ChatGPT consistently provide better results with basic prompts? Are there scenarios where naïve prompts work equally well?
-Deliverables:
+Select various scenarios such as:
+
+Generating a creative story.
+Answering a factual question.
+Summarizing an article or concept.
+Providing advice or recommendations.
+Any other test scenario.
+
+For each scenario, create both a naïve and a basic prompt. Ensure each pair of prompts targets the same task but with different levels of structure.
+
+Run Experiments with ChatGPT
+
+Input the naïve prompt for each scenario and record the generated response. Then input the corresponding basic prompt and capture that response. Repeat this process for all selected scenarios to gather a full set of results.
+
+Evaluate Responses
+
+Compare how ChatGPT performs when given naïve versus basic prompts and analyze the output based on:
+
+Quality
+Accuracy
+Depth
+
+Also analyze whether ChatGPT consistently provides better results with basic prompts and whether there are scenarios where naïve prompts work equally well.
+
+Deliverables
 A table comparing ChatGPT's responses to naïve and basic prompts across all scenarios.
-Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT’s outputs.
+Analysis of how prompt clarity impacts the quality, accuracy, and depth of ChatGPT's outputs.
 Summary of findings with insights on how to structure prompts for optimal results when using ChatGPT.
+OUTPUT
 
-#**STUDENT SUBMISSION FORMAT**
-Each student/team should submit:
-Project title and problem statement
-Selected engineering scenario
-Base prompt
-Minimum four improved prompts using different techniques
-AI-generated outputs
-Comparison/evaluation table
-Analysis and observations
-Final selected prompting technique
-Refined/final prompt
-Engineering validation
+Selected Scenario: AI-Powered Customer Support Chatbot in Manufacturing Industry
 
-**Conclusion**
+1. Basic Prompt
 
-# OUTPUT
+PROMPT:
 
-# RESULT: The prompt for the above said problem executed successfully
+"Explain AI-powered customer support chatbots."
+
+OUTPUT:
+
+AI-powered customer support chatbots are software systems that use artificial intelligence to interact with customers automatically. They answer questions, handle complaints, provide product information, and improve customer service efficiency.
+
+2. Zero-Shot Prompt
+
+PROMPT:
+
+"Explain how AI-powered customer support chatbots help manufacturing industries improve customer service and operational efficiency."
+
+OUTPUT:
+
+AI-powered customer support chatbots help manufacturing industries by automating customer interactions such as complaint handling, order tracking, and technical support. These chatbots provide instant responses using Natural Language Processing (NLP) and machine learning techniques. They improve operational efficiency by reducing human workload and offering 24/7 customer support. Manufacturing companies also use chatbot data to understand customer issues and improve products and services.
+
+3. Few-Shot Prompt
+
+PROMPT:
+
+Example 1:
+
+Input: "Explain online banking security."
+
+Output: "Online banking security uses encryption, authentication, and fraud detection systems to protect customer transactions and financial data."
+
+Example 2:
+
+Input: "Explain smart home automation."
+
+Output: "Smart home automation uses IoT devices and sensors to control appliances, lighting, and security systems automatically."
+
+Now answer the following:
+
+"Explain AI-powered customer support chatbots in manufacturing industries."
+
+OUTPUT:
+
+AI-powered customer support chatbots in manufacturing industries use artificial intelligence and NLP techniques to communicate with customers automatically. These chatbots assist with order tracking, complaint management, technical support, and product inquiries. They improve customer satisfaction by providing quick responses and reducing waiting time. Manufacturing companies use chatbots to improve efficiency, reduce operational costs, and provide continuous customer support services.
+
+4. Chain-of-Thought Prompt
+
+PROMPT:
+
+"Explain step by step how AI-powered customer support chatbots work in manufacturing industries. Include customer interaction, data processing, response generation, and problem escalation."
+
+OUTPUT:
+
+Step 1: Customer Interaction
+
+Customers send queries through websites, mobile apps, or messaging platforms.
+
+Step 2: Query Understanding
+
+The chatbot uses Natural Language Processing (NLP) to analyze customer messages and identify the intent of the query.
+
+Step 3: Data Processing
+
+The chatbot searches company databases and previous records to find relevant information.
+
+Step 4: Response Generation
+
+Based on the processed information, the chatbot generates accurate responses for the customer.
+
+Step 5: Problem Escalation
+
+If the issue is too complex, the chatbot transfers the conversation to a human support agent.
+
+Step 6: Continuous Learning
+
+The chatbot learns from customer interactions and improves performance through machine learning updates.
+
+Comparative Quality Analysis
+Prompting Technique	Clarity	Accuracy	Depth of Explanation	Structure Quality
+Basic Prompt	Moderate	Moderate	Low	Simple
+Zero-Shot Prompt	Good	High	Moderate	Clear
+Few-Shot Prompt	Very Good	High	Good	Well-Structured
+Chain-of-Thought Prompt	Excellent	Very High	High	Step-by-Step Detailed
+Analysis
+
+The Basic Prompt generated a short and general response with limited details.
+
+The Zero-Shot Prompt produced a clearer explanation because the task was more specific.
+
+The Few-Shot Prompt improved response quality by providing examples that guided the AI model's response style and structure.
+
+The Chain-of-Thought Prompt generated the most detailed and logically structured explanation by breaking the process into multiple reasoning steps.
+
+RESULT
+
+The prompt for the above-mentioned problem was executed successfully using ChatGPT. The outputs generated by Basic Prompting, Zero-Shot Prompting, Few-Shot Prompting, and Chain-of-Thought Prompting were compared and analyzed based on clarity, accuracy, depth of explanation, and structure quality. Thus, the experiment successfully demonstrated the effectiveness of different prompting patterns.
