@@ -126,15 +126,12 @@ Step 6: Continuous Learning
 
 The chatbot learns from customer interactions and improves performance through machine learning updates.
 
-Comparative Quality Analysis
-Prompting Technique	Clarity	Accuracy	Depth of Explanation	Structure Quality
-Basic Prompt	Moderate	Moderate	Low	Simple
-Zero-Shot Prompt	Good	High	Moderate	Clear
-Few-Shot Prompt	Very Good	High	Good	Well-Structured
-Chain-of-Thought Prompt	Excellent	Very High	High	Step-by-Step Detailed
-Analysis
-
-The Basic Prompt generated a short and general response with limited details. The Zero-Shot Prompt produced a clearer explanation because the task was more specific. The Few-Shot Prompt improved response quality by providing examples that guided the AI model's response style and structure. The Chain-of-Thought Prompt generated the most detailed and logically structured explanation by breaking the process into multiple reasoning steps.
+| Prompting Technique | Clarity | Accuracy | Depth of Explanation | Structure Quality |
+|---------------------|---------|----------|---------------------|-------------------|
+| Basic Prompt | Moderate | Moderate | Low | Simple |
+| Zero-Shot Prompt | Good | High | Moderate | Clear |
+| Few-Shot Prompt | Very Good | High | Good | Well-Structured |
+| Chain-of-Thought Prompt | Excellent | Very High | High | Step-by-Step Detailed |
 
 RESULT
 
